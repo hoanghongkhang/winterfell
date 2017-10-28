@@ -23,7 +23,7 @@ object Winterfell extends App {
         |
         |Usage: java -jar winterfell.jar [brokerURI] [user:pwd] [topic] [port]
         |     | java -jar winterfell.jar [--broker brokerURI] [--userpwd user:pwd] [--topic topicName] [--port port]
-        |   --broker  specify brokerURI (default:)
+        |   --broker  specify brokerURI (default: ssl://m11.cloudmqtt.com:2213)
         |   --userpwd    specify MQTT username and password (default: user01:123456)
         |   --topic   specify topic name to subscribe (default bus50)
         |   --port    specify port to listen (default 6789)

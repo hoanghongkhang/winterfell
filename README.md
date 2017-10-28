@@ -18,12 +18,12 @@ Copyright (c) 2017 Hoang Hong Khang
 
 Usage: java -jar winterfell.jar [brokerURI] [user:pwd] [topic] [port]
      | java -jar winterfell.jar [--broker brokerURI] [--userpwd user:pwd] [--topic topicName] [--port port]
-   --broker  specify brokerURI (default:)
+   --broker     specify brokerURI (default: ssl://m11.cloudmqtt.com:2213)
    --userpwd    specify MQTT username and password (default: user01:123456)
-   --topic   specify topic name to subscribe (default bus50)
-   --port    specify port to listen (default 6789)
+   --topic      specify topic name to subscribe (default bus50)
+   --port       specify port to listen (default 6789)
    [brokerURI] [user:pwd] [topic] [port] ex. ssl://m11.cloudmqtt.com:22133 user01:123456 bus50 6789
-   --help    this message
+   --help       this message
 ```
 
 ## Star service
