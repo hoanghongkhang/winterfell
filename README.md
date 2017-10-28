@@ -1,5 +1,6 @@
 # ❄ winterfell ❄
-A chatting application using MQTT messaging protocols.
+
+A gateway client application using CloudMQTT api.
 
 ## Star developing
 ```scala

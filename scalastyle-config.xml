@@ -15,7 +15,7 @@
     <check enabled="true" class="org.scalastyle.file.FileTabChecker" level="error"/>
     <check enabled="true" class="org.scalastyle.file.HeaderMatchesChecker" level="error">
         <parameters>
-            <parameter name="header"><![CDATA[// Copyright (C) 2016-2017 Ark Maxim, Inc.]]></parameter>
+            <parameter name="header"><![CDATA[// Copyright (c) 2017, All rights reserved.]]></parameter>
         </parameters>
     </check>
     <check enabled="true" class="org.scalastyle.file.IndentationChecker" level="error">
